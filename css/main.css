@@ -400,14 +400,16 @@ nav ul li a{
   background: #FF9000;
   position: relative;
   height: 58rem;
+  
 }
 
 .skill-header {
   position: relative;
   font-size: 30px;
   color: white;
-  padding: 50px;
+  padding: 41px;
   text-align: center;
+  margin-top: 5rem;
 }
 .skills-wrapper img {
   margin: 50px;

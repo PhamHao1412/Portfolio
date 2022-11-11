@@ -27,7 +27,7 @@ scrollUp.addEventListener("click", () => {
 const about = document.querySelector('#GetAbout');
 about.addEventListener("click", () => {
   window.scrollTo({
-    top: 550,
+    top: 600,
     behavior: "smooth",
   });
 });
@@ -43,7 +43,7 @@ skills.addEventListener("click", () => {
 const contact = document.querySelector('#GetContact');
 contact.addEventListener("click", () => {
   window.scrollTo({
-    top: 2200,
+    top: 2230,
     behavior: "smooth",
   });
 });
