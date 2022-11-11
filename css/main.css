@@ -12,7 +12,7 @@
   --normal-font: 400;
   --bold-font: 700;
   --bolder-font: 900;
-  --bg-color: #d18029;
+  --bg-color: #d56f09;
   --primary-color: #FF9000;
   --secondary-color: #ff7235;
   --primary-shadow: #8b8eaf;
@@ -375,6 +375,8 @@ nav ul {
   transition: transform 0.5s ease-in;
   padding-top: -1%;
   margin: 0;
+  cursor: pointer;
+
   
   
 }
@@ -382,6 +384,8 @@ nav ul {
   margin: 5px;
   list-style: none;
   margin-left: 3rem;
+  cursor: pointer;
+  color: #000;
  
 }
 nav ul li a{
@@ -395,7 +399,7 @@ nav ul li a{
   margin-top: 2.5rem;
   background: #FF9000;
   position: relative;
-  height: 60rem;
+  height: 58rem;
 }
 
 .skill-header {
@@ -489,7 +493,7 @@ nav ul li a{
   text-align: center;
   margin-bottom: var(--bottom-margin-2);
   margin-top: 10rem;
-
+  margin-bottom: 2rem;
 }
 
 .contact-form-container {

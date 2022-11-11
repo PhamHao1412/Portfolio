@@ -23,3 +23,29 @@ scrollUp.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+const about = document.querySelector('#GetAbout');
+about.addEventListener("click", () => {
+  window.scrollTo({
+    top: 550,
+    behavior: "smooth",
+  });
+});
+
+const skills = document.querySelector('#GetSkills');
+skills.addEventListener("click", () => {
+  window.scrollTo({
+    top: 1280,
+    behavior: "smooth",
+  });
+});
+
+const contact = document.querySelector('#GetContact');
+contact.addEventListener("click", () => {
+  window.scrollTo({
+    top: 2200,
+    behavior: "smooth",
+  });
+});
+
+
